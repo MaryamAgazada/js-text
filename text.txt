@@ -1,0 +1,58 @@
+let ile mueyyen edilmis deyisenler yeniden elan edile bilmez .deyiseni yeniden elan etmekde var problemler yarada biler.
+    JavaScript faylini HTML faylina 2 cur yazmaq mumkundur:    
+1-Internal (Daxili) JavaScript: JavaScript kodlarini <script> tegi daxilinde yazmaq
+2-External (Xarici) JavaScript: JavaScript kodlarini ayri bir faylda yaradib, <script src> ile cagirmaq
+
+
+JavaScript-de 3 cur deyisen teyin etmek mumkundur:
+let: Blok sahesinde yerli deyisen teyin edir, yeniden teyin edile biler.
+const: Blok sahesinde yerli sabit (deyismez) deyisen teyin edir, bir defe teyin edilenden sonra yeniden deyeri deyise bilmez.
+var: evvelki JavaScript versiyalarinda esas deyisen teyin etmek ucun istifade olunur. Blok sahesi yoxdur ve yeniden teyin edile biler. Son derece diqqetli istifade olunmalidir.
+JavaScript-de operatorlar ucun numuneler:
+
+&& (ve): İki sertin hamisinin dogru olmasini yoxlayir.
+|| (ve ya): İki sertin birinin dogru olmasini yoxlayir.
+! (deyil): Bir sertin qarsisini alir, yeni dogru olani yanlisa, yanlisi ise dogruya cevirir.
+JavaScript-de bezi qisa yazilislar:
+
+a = a + 1 evezine a++: a deyisenine 1 elave edir.
+b = b + 5 evezine b += 5: b deyisenine 5 elave edir.
+
+Datatypelar:
+1-String: Metn deyerleri."" ve ya '' teyin edilir.
+2-Number: Reqemler, ededler.
+3-Boolean: true ve false deyerleri.
+4-Array: Bir sira elementlerin qrupu. Koklerinden ferqli olaraq, JavaScript-de dinamikdir.
+5-Object: Melumatlarin tesnifatlandirilmasi ucun istifade olunan kompleks deyerler.
+6-Undefined: Deyisene deyer teyin edilmemisdikde alinan deyer.
+7-Null: Bos deyer, melumatin olmamasini gosterir.
+
+
+Sert Operatorlar:
+1-Ternary Operator (? :): serti deyerlendirmek ucun istifade olunan qisa uslub. if else ifadesinin qisa formasidir.
+2-Sifirlama Operatoru (??): Deyerin null ve ya undefined olub-olmadigini yoxlayan operator.
+
+
+Dovri Operatorlar:
+1-For Bir dovrde melumatlari islemek ucun istifade olunan operator.
+2-While sert yerine yetene qeder dovru icra eden operator.
+
+Operatorlar:
+1-Riyazi Operatorlar: +, -, *, /, % kimi emeller ucun istifade olunur.
+2-Mantiq Operatorlari: && (ve), || (ve ya), ! (deyil) kimi operatorlar istifade olunur.
+3-Muqayise Operatorlari: ==, ===, !=, !==, >, <, >=, <= kimi operatorlar deyisenlerin qiymetlerini muqayise edir.
+
+Funksiyalar:
+1-Funksiya Teyin etmek: function ifadesi ile funksiya teyin edilir.
+2-Parametrler ve Argumanlar: Funksiyalara melumat oturmek ucun parametrler istifade olunur.
+3-Qaytarilma Deyeri: Funksiya sonunda qaytarilma deyeri istenilen nov ola biler.
+4-Anonim Funksiyalar: İsmi olmayan funksiyalar.
+5-Arrow funksiyalar: ES6 ile gelen funksiya sintaksisi, qisa ve oxunaqli bir uslubdadir.
+
+Massiv Metodlari:
+1-push(): Massivin sonuna yeni element elave edir.
+2-pop(): Massivin sonundan element silir.
+3-shift(): Massivin evvelinden element silir.
+4-unshift(): Massivin evveline yeni element elave edir.
+5-splice(): Massivden elementleri elave etmek, silmek ve ya deyisdirmek ucun istifade olunur.
+6-slice(): Massivden bezi hisseleri secmek ucun istifade olunur.
